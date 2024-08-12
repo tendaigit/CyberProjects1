@@ -1,1 +1,12 @@
+#Password Strength Checker
+
+Description: Developing a tool that checks the strength of a password based on predefined criteria like length, use of numbers, special characters, and uppercase letters.
+
+Key Concepts: String manipulation, regular expressions.
+Libraries: re.
+
+Steps:
+Ask the user to input a password.
+Use regular expressions to check for common security practices.
+Provide feedback on password strength.
 
