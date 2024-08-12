@@ -1,0 +1,12 @@
+#File Encryption and Decryption
+
+Description: Creating a program that can encrypt and decrypt text files using a symmetric encryption algorithm like the Caesar cipher or XOR encryption.
+
+Key Concepts: Basic cryptography, file handling.
+
+Libraries: None (for simple algorithms).
+
+Steps:
+Implement a basic encryption algorithm.
+Allow users to select a file, encrypt it, and save the result.
+Provide a decryption option to reverse the process.
