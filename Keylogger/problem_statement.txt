@@ -1,0 +1,12 @@
+#This should be used strictly for educational purposes on your own machine.
+
+Description: Develop a keylogger that records keystrokes to a local file.
+
+Key Concepts: Keyboard input monitoring, file handling.
+
+Libraries: pynput.
+
+Steps:
+Capture keystrokes using the pynput library.
+Store the captured keys in a local file.
+Ensure it runs in the background while capturing input.
