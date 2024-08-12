@@ -1,0 +1,12 @@
+#HTTP Request Logger
+
+Description: Creating a tool that logs HTTP requests made to a server, displaying information like method, URL, headers, and data.
+
+Key Concepts: HTTP protocol, web traffic analysis.
+
+Libraries: http.server, logging.
+
+Steps:
+Set up a basic HTTP server using Python's http.server.
+Log each incoming request, displaying relevant details.
+Store the logs in a file for later analysis.
