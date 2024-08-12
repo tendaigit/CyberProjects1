@@ -1,0 +1,11 @@
+#Network Scanner
+
+Description: Implementing a network scanner that identifies devices connected to your local network.
+
+Key Concepts: Networking, IP addressing.
+
+Libraries: socket, ipaddress.
+
+Steps:
+Use Python’s socket library to ping a range of IP addresses.
+Identify active devices based on the response.
