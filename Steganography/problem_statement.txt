@@ -1,0 +1,11 @@
+#Steganography Tool
+Description: Building a tool to hide text messages within an image using basic steganography techniques.
+
+Key Concepts: Steganography, image processing.
+
+Libraries: PIL (Pillow).
+
+Steps:
+Convert the text to binary.
+Modify the least significant bit (LSB) of each pixel to embed the message.
+Provide a way to extract the hidden message.
