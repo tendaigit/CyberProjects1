@@ -1,1 +1,23 @@
-#
+#regular expression cheatsheet
+
+Basic Syntax
+
+. : Any character except newline.
+
+^ : Matches the start of a string.
+
+$ : Matches the end of a string.
+
+* : 0 or more repetitions of the preceding element.
+
++ : 1 or more repetitions of the preceding element.
+
+? : 0 or 1 repetition of the preceding element.
+
+{m} : Exactly m repetitions of the preceding element.
+
+{m,n} : Matches between m and n repetitions of the preceding element.
+
+[] : Matches any single character in brackets.
+
+[^] : Matches any single character not in brackets.
