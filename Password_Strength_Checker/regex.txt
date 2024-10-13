@@ -21,3 +21,51 @@ $ : Matches the end of a string.
 [] : Matches any single character in brackets.
 
 [^] : Matches any single character not in brackets.
+
+Character Classes
+
+\d : Matches any digit (0-9). Equivalent to [0-9].
+
+\D : Matches any non-digit character. Equivalent to [^0-9].
+
+\w : Matches any word character (alphanumeric or underscore). Equivalent to [a-zA-Z0-9_].
+
+\W : Matches any non-word character. Equivalent to [^a-zA-Z0-9_].
+
+\s : Matches any whitespace character (space, tab, newline).
+
+\S : Matches any non-whitespace character.
+
+Anchors
+
+\b : Matches a word boundary (between a word character and a non-word character).
+
+\B : Matches a non-boundary (between two word characters or two non-word characters).
+
+\A : Matches the start of the string.
+
+\Z : Matches the end of the string.
+
+Grouping & Alternation
+
+() : Capturing group, matches the expression inside the parentheses.
+
+(?:...) : Non-capturing group, matches but does not capture.
+
+| : Alternation, matches either the expression before or the expression after the |.
+
+Escape Sequences
+
+\\ : Escapes a special character.
+
+\. : Matches a literal period (instead of any character).
+
+\* : Matches a literal asterisk, and so on for other special characters.
+
+Common Examples
+
+r'\d{2,4}' : Match a number that is between 2 to 4 digits long.
+
+r'^[a-zA-Z_]\w*$' : Match a valid Python variable name.
+
+r'^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$' : Match an email address
