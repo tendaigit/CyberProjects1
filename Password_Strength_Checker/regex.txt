@@ -69,3 +69,51 @@ r'\d{2,4}' : Match a number that is between 2 to 4 digits long.
 r'^[a-zA-Z_]\w*$' : Match a valid Python variable name.
 
 r'^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$' : Match an email address
+
+Python Regex Functions (re module)
+
+Search:
+
+    re.search(pattern, string) : Searches for the pattern in the string.
+
+    result = re.search(r'\d+', 'Order number is 12345')
+    print(result.group())  # Output: 12345
+
+
+Match:
+
+      re.match(pattern, string) : Matches the pattern only at the beginning of the string.
+
+      result = re.match(r'\d+', '12345 items')
+      print(result.group())  # Output: 12345
+
+Find All:
+
+         re.findall(pattern, string) : Finds all occurrences of the pattern in the string.
+
+         result = re.findall(r'\d+', 'Order 12345 and 67890')
+         print(result)  # Output: ['12345', '67890']
+
+Substitute:
+
+         re.sub(pattern, replacement, string) : Replaces the occurrences of the pattern with the replacement.
+
+         result = re.sub(r'\d+', 'X', 'Order 12345 and 67890')
+         print(result)  # Output: Order X and X
+
+Split:
+
+        re.split(pattern, string) : Splits the string at each occurrence of the pattern
+
+        result = re.split(r'\s+', 'Split this string    by spaces')
+        print(result)  # Output: ['Split', 'this', 'string', 'by', 'spaces']
+
+Compile:
+
+       pattern = re.compile(r'\d+') : Compiles a regular expression pattern for reuse.
+
+      pattern = re.compile(r'\d+')
+      result = pattern.findall('Order 12345 and 67890')
+      print(result)  # Output: ['12345', '67890']
+
+
