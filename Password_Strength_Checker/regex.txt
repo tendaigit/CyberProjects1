@@ -1,4 +1,4 @@
-#regular expression cheatsheet
+#Regular expression cheatsheet
 
 Basic Syntax
 
