@@ -1,1 +1,43 @@
-
+2024-11-17 06:26:26,811: Keylogger started...
+2024-11-17 06:26:50,465: Key pressed: j
+2024-11-17 06:26:52,292: Key pressed: k
+2024-11-17 06:26:53,007: Key pressed: l
+2024-11-17 06:26:54,141: Key pressed: g
+2024-11-17 06:26:54,189: Key pressed: f
+2024-11-17 06:26:54,669: Key pressed: s
+2024-11-17 06:26:55,152: Key pressed: r
+2024-11-17 06:26:55,761: Key pressed: e
+2024-11-17 06:26:56,464: Key pressed: e
+2024-11-17 06:26:57,054: Key pressed: y
+2024-11-17 06:26:57,055: Key pressed: r
+2024-11-17 06:26:57,577: Key pressed: h
+2024-11-17 06:26:57,978: Key pressed: t
+2024-11-17 06:26:58,462: Key pressed: u
+2024-11-17 06:26:58,465: Key pressed: t
+2024-11-17 06:26:58,770: Key pressed: y
+2024-11-17 06:26:58,780: Key pressed: i
+2024-11-17 06:26:59,448: Key pressed: f
+2024-11-17 06:26:59,742: Key pressed: s
+2024-11-17 06:27:00,721: Special key pressed: Key.enter
+2024-11-17 06:27:36,785: Special key pressed: Key.esc
+2024-11-17 06:27:37,177: Exiting keylogger...
+2024-11-17 06:35:11,403: Keylogger started...
+2024-11-17 06:35:16,094: Special key pressed: Key.shift
+2024-11-17 06:35:16,602: Key pressed: I
+2024-11-17 06:35:17,739: Special key pressed: Key.space
+2024-11-17 06:35:18,820: Key pressed: l
+2024-11-17 06:35:19,074: Key pressed: o
+2024-11-17 06:35:19,756: Key pressed: v
+2024-11-17 06:35:20,064: Key pressed: e
+2024-11-17 06:35:20,804: Special key pressed: Key.space
+2024-11-17 06:35:22,256: Key pressed: p
+2024-11-17 06:35:22,687: Key pressed: y
+2024-11-17 06:35:23,004: Key pressed: t
+2024-11-17 06:35:23,404: Key pressed: h
+2024-11-17 06:35:23,842: Key pressed: o
+2024-11-17 06:35:24,540: Key pressed: n
+2024-11-17 06:35:27,319: Special key pressed: Key.space
+2024-11-17 06:35:30,319: Special key pressed: Key.backspace
+2024-11-17 06:35:31,054: Key pressed: .
+2024-11-17 06:35:39,475: Special key pressed: Key.esc
+2024-11-17 06:35:39,627: Exiting keylogger...
